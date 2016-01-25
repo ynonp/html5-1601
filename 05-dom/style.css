@@ -1,0 +1,27 @@
+.square {
+  background: #aaa;
+  width:30px;
+  height:30px;
+  display:inline-block;
+  margin:0;
+  vertical-align:top;  
+}
+
+.winner {
+  background:yellow !important;
+}
+
+
+.row:nth-child(2n) .square:nth-child(2n) {
+  background:black;
+}
+
+.row:nth-child(2n+1) .square:nth-child(2n+1) {
+  background:black;
+}
+
+.row {
+  margin:0;
+  padding:0;
+}
+
