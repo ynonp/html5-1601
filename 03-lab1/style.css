@@ -1,0 +1,19 @@
+#uppercase {
+    text-transform: uppercase;
+    font-size: 64px;
+}
+
+#text h2 {
+    margin-top:0;
+}
+
+#text {
+    display:inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+img {
+    width: 40%;
+    vertical-align: top;
+}
