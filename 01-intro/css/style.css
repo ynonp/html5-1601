@@ -1,0 +1,70 @@
+h1 {
+  color: purple;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.cool-kittens span {
+}
+
+.cool-kittens img {
+  width:20%;
+  vertical-align:top;
+  height:100px;
+}
+
+
+#main-header {
+  border-bottom: 2px dashed gray;
+  color: green;
+  text-align:center;
+  background:gray;
+  line-height: 100px;
+
+  width: 80%;
+  height: 100px;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+.normal {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.normal img {
+  transform: rotate(30deg);
+  border: 5px solid black;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+.large {
+  font-size: 32px;
+}
+
+
+button {
+  background: purple;
+  color: white;
+  padding: 10px;
+  transform: 0;
+  transition: all 0.5s;
+}
+
+button:hover {
+  transform: rotate(20deg);
+}

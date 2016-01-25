@@ -1,0 +1,37 @@
+ul,html, body {
+  padding:0;
+  margin:0;
+}
+
+.top-menu ul {
+  list-style:none;
+  padding:20px;
+  background: #c1c1c1;
+}
+
+.top-menu li {
+  display:inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.top-menu a {
+  text-decoration:none;
+  color: black;
+  padding: 10px;
+}
+
+.top-menu a:hover {
+  background:darkblue;
+  color:white;
+}
+
+
+
+
+
+
+.top-menu li:first-child {
+  margin-left:0;
+}
+
