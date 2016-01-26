@@ -19,16 +19,23 @@
   <p>Please Wait...</p>
 </div>
 
-<div class="movie-result">
-  <h2 class="movie-name"></h2>
-  <h3 class="movie-year"></h3>
-  <img class="movie-poster" />
-</div>
+<div class="result"></div>
+
+<script type="my-template" class="movie-result">
+  {{#each Search}}
+    <h2 class="movie-name">{{Title}}</h2>
+    <h3>Type: {{Type}}</h3>
+    <h3 class="movie-year">{{Year}}</h3>
+    <img class="movie-poster" src="{{Poster}}" />
+  {{/each}}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.js"></script>
 
 <script src="spin.js"></script>
 
-<script src="omdb.js"></script>
+<script src="templates.js"></script>
 </body>
 </html>
