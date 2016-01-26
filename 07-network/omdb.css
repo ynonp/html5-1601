@@ -1,0 +1,9 @@
+.please-wait {
+  display:none;
+}
+
+.please-wait.show {
+  display:block;
+}
+
+

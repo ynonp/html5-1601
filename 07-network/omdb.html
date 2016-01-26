@@ -3,19 +3,31 @@
 <head>
 <meta charset="utf-8" />
 <title>omdb</title>
+<link rel="stylesheet" href="omdb.css" />
 </head>
 <body>
 
-<label>Movie Name:
-  <input type="text" id="i-name" />
-</label>
-<button id="btn-search">Search</button>
+<form>
+  <label>Movie Name:
+    <input type="text" id="i-name" />
+  </label>
+  <button id="btn-search">Search</button>
+</form>
+
+<div class="please-wait">
+  <div id="spinner"></div>
+  <p>Please Wait...</p>
+</div>
 
 <div class="movie-result">
   <h2 class="movie-name"></h2>
   <h3 class="movie-year"></h3>
   <img class="movie-poster" />
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.js"></script>
+
+<script src="spin.js"></script>
 
 <script src="omdb.js"></script>
 </body>
