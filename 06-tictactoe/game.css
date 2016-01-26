@@ -1,0 +1,22 @@
+
+.game .square {
+  background: #aaa;
+  width:33%;
+  height: 30vh;
+  display:inline-block;
+  margin:0;
+  vertical-align:top;  
+  border: 1px solid black;  
+  box-sizing: border-box;
+
+
+  text-align:center;
+  line-height:30vh;
+}
+
+
+.winner {
+  background:yellow;
+}
+
+
