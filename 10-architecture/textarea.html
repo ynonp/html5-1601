@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>textarea</title>
+</head>
+<body>
+
+<div class="widget" data-type="clicker"></div>
+<hr />
+<h2>And now for the texts</h2>
+<div class="widget" data-type="counted-textarea"></div>
+<div class="widget" data-type="counted-textarea"></div>
+<div class="widget" data-type="clicker"></div>
+
+<div class="widget" data-type="counted-textarea"></div>
+
+<script type="text/template" id="textarea-template">
+  <p>Length:
+    <span class="len">0</span>
+  </p>
+  <textarea></textarea>
+</script>
+
+<script type="text/template" id="clicker-template">
+    <p>You clicked: 
+      <span class="clicks">0</span>
+      Times
+    </p>
+    <button>Click Me</button>
+</script>
+
+
+
+
+<script src="widget.js"></script>
+
+<script src="clicker.js"></script>
+
+<script src="textarea.js"></script>
+<script src="textarea_main.js"></script>
+</body>
+</html>
